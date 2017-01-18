@@ -1,0 +1,14 @@
+<?php
+session_start();
+
+
+?>
+<?php
+if (isset('login') or isset('id')) { 
+echo "123";
+
+}
+else {
+echo " вы вошли аки гость. ";
+}
+?>
