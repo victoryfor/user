@@ -1,0 +1,28 @@
+.one, .1, .table, .image {
+    width: 150px;
+   height: 150px;
+}
+.text {
+position: relative;
+left: 30px;
+text-align: center;
+
+}
+.image {
+  position: relative;
+}
+
+
+.1 {
+   position: relative;
+
+}
+
+.one {
+   position: relative;
+   outline: 3px solid #0293f4;
+   left: 1200px;
+   bootstrap: 12px;
+   width: 120px;
+   height: 150px;
+}
