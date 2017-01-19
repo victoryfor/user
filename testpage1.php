@@ -16,6 +16,6 @@ echo "Вы зашли на сайт как гость. ";
 else {
 echo "
 <body bgcolor='<?=$arr[1]?>'>
-<table><p>Страница2</p></table>";
+<table><p>Страница</p></table>";
 }
 ?>
