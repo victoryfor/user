@@ -32,7 +32,7 @@ $result = mysql_query("SELECT * FROM users WHERE login='$login'",$db); //изв�
     $_SESSION['login']=$myrow['login']; 
     $_SESSION['id']=$myrow['id'];//эти данные очень часто используются, вот их и будет "носить с собой" вошедший пользователь
     echo "
-<script>window.location.href = 'index.php';</script>'
+<script>window.location.href = 'testpage1.php';</script>'
 ";
     }
  else {
