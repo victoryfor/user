@@ -1,14 +1,29 @@
 <?php
 session_start();
 ?>
+<?php
+$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+$mobile = strpos($_SERVER['HTTP_USER_AGENT'],"Mobile");
+$symb = strpos($_SERVER['HTTP_USER_AGENT'],"Symbian");
+$operam = strpos($_SERVER['HTTP_USER_AGENT'],"Opera M");
+$htc = strpos($_SERVER['HTTP_USER_AGENT'],"HTC_");
+$fennec = strpos($_SERVER['HTTP_USER_AGENT'],"Fennec/");
+$winphone = strpos($_SERVER['HTTP_USER_AGENT'],"WindowsPhone");
+$wp7 = strpos($_SERVER['HTTP_USER_AGENT'],"WP7");
+$wp8 = strpos($_SERVER['HTTP_USER_AGENT'],"WP8");
+if ($ipad || $iphone || $android || $palmpre || $ipod || $berry || $mobile || $symb || $operam || $htc || $fennec || $winphone || $wp7 || $wp8 === true) {
+    header('Location: enterpagem.php');
+}
+?>
 <head>
 <meta charset="uft8">
-<meta http-equiv="x-ua-compatible" content="ie-edge">
+<meta http-equiv="x-ua-compatible">
 <link rel="stylesheet" href="style.css">
 </head>
-<?php
-$arr[1]="#19fc00";
-?>
 <div class="one">
 <?php
 if (empty($_SESSION['login']) or empty($_SESSION['id'])) 
@@ -40,7 +55,7 @@ echo
 else {
 
 	echo "
-<body bgcolor='<?=$arr[1]?>'>
+
 <table>
 <b>Вы уже залогинены</b>
 </table> " ;
