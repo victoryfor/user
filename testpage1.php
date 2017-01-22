@@ -23,7 +23,13 @@ if ($ipad || $iphone || $android || $palmpre || $ipod || $berry || $mobile || $s
     header('Location: testpage1m.php'); 
 }
 ?>
-
+<head>
+<meta charset="uft8">
+<meta http-equiv="x-ua-compatible">
+<link rel="stylesheet" href="style.css">
+</head>
+<div class="one">
+<body>
 <?php
 
 if (empty($_SESSION['login']) or empty($_SESSION['id']))
@@ -40,12 +46,19 @@ echo "Вы зашли на сайт как гость.
 }
 else {
 echo "
-
+<table>
+".$_SESSION['login']."
+<br>
+".$_SESSION['email']."
+</table>
 <table>
 <p> <form method='LINK' action='index.php'>
     <input type='submit' value='на главную '>
 </form>
 <br></p>
-</table>";
+</table>
+<form method='LINK' action='logout.php'>
+    <input type='submit' value='Выход'>";
 }
 ?>
+</body>
