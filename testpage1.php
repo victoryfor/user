@@ -41,6 +41,8 @@ echo "Вы зашли на сайт как гость.
     <input type='submit' value='войти '>
 </form>
 <br></p>
+
+
 </table>
 ";
 }
@@ -58,7 +60,12 @@ echo "
 <br></p>
 </table>
 <form method='LINK' action='logout.php'>
-    <input type='submit' value='Выход'>";
-}
+    <input type='submit' value='Выход'>
+<br>
+<form method='LINK' action='mailsend.php'>
+    <input type='submit' value='Отправить письмо'>
+
+"
+ ;}
 ?>
 </body>
