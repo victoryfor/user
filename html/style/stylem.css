@@ -1,0 +1,93 @@
+.textm {
+         position: absolute;
+         top: 250px;
+}
+.block {
+  position: relative;  
+   bootstrap: 12px;
+  top: 30px;
+}
+.enterbuttonmpos {
+position:relative;
+}
+.regbuttonmpos {
+position:absolute;
+}
+
+.logoutbuttonm
+{ position: relative;
+  width: 300px;
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.logoutbuttonm:hover { background: rgb(232,95,76); } 
+a.logoutbuttonm:active { background: rgb(152,15,0); } 
+
+ .enterbuttonm 
+{ 
+  width:500px;height:120px ;
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+ } 
+a.enterbuttonm:hover {  background: rgb(232,95,76); } 
+a.enterbuttonm:active { background: rgb(152,15,0); } 
+ .regbuttonm {
+   width:500px;height:120px ;
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.regbuttonm:hover { background: rgb(232,95,76); } 
+a.regbuttonm:active { background: rgb(152,15,0); } 
+
+ 
+
+.logputm, .passputm, .emailputm {
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 70px;
+   width: 240px;
+   color: #cccccc;
+   font-size: 24px; 
+   font-family: Tahoma; 
+}
+
+.enterbuttonm {
+	{
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.enterbuttonm:hover { background: rgb(232,95,76); } 
+a.enterbuttonm:active { background: rgb(152,15,0); } 
+	
+.regbuttonm {
+	{
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.regbuttonm:hover { background: rgb(232,95,76); } 
+a.regbuttonm:active { background: rgb(152,15,0); } 

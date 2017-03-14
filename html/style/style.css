@@ -1,0 +1,157 @@
+
+
+.block {
+  position: absolute;
+  left: 1100px;
+   bootstrap: 12px;
+   width: 150px;
+   height: 150px;
+}
+.block2 {
+  position: absolute;
+  left: 1100px;
+   bootstrap: 12px;
+   width: 150px;
+   height: 150px;
+}
+.sendmail {
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: rgb(212,75,56);
+  padding: .7em 1.5em;
+  outline: none;
+}
+a.sendmail:hover { background: rgb(232,95,76); }
+a.sendmail:active { background: rgb(152,15,0); }
+
+.tostartbutton {
+color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: rgb(212,75,56);
+  padding: .7em 1.5em;
+  outline: none;
+}
+.tostartbutton:hover { background: rgb(232,95,76); }
+.tostartbutton:active { background: rgb(152,15,0); }
+
+.enterbuttonpos {
+position:relative;
+
+} 
+.regbuttonpos {
+position:absolute;
+down: 15px;
+}
+
+.logoutbutton 
+{
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.logoutbutton:hover { background: rgb(232,95,76); } 
+a.logoutbutton:active { background: rgb(152,15,0); } 
+
+ .enterbutton 
+{ 
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.enterbutton:hover { background: rgb(232,95,76); } 
+a.enterbutton:active { background: rgb(152,15,0); } 
+ .regbutton {
+ color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.regbutton:hover { background: rgb(232,95,76); } 
+	a.regbutton:active { background: rgb(152,15,0); } 
+.header {
+	background-color: white;
+}
+.text { 
+        position: absolute;
+        left: 40px;
+        down: 40px;
+}
+.regbutton2 {
+	color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+}
+a.regbutton2:hover { background: rgb(232,95,76); } 
+a.regbutton2:active { background: rgb(152,15,0); } 
+.logput{ 
+   position: relative;
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+    outline: none;
+   height: 24px;
+   width: 120px;
+   color: #cccccc;
+   font-size: 11px;
+   font-family: Tahoma;
+
+}
+.passput {
+border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 24px; 
+   width: 120px; 
+   color: #cccccc; 
+   font-size: 11px; 
+   font-family: Tahoma; 
+}
+.emailput { 
+border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 24px; 
+   width: 120px; 
+   color: #cccccc; 
+   font-size: 11px; 
+   font-family: Tahoma;  
+}
+.enterbutton {
+	{
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+} 
+a.enterbutton:hover { background: rgb(232,95,76); } 
+a.enterbutton:active { background: rgb(152,15,0); } 
+	
+.body {
+ background-color: rgb(232,95,76);
+}
